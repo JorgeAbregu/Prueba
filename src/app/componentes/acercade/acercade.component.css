@@ -1,0 +1,17 @@
+/* Acerca de Mi */
+.acercaDe{
+    margin-top: .625rem;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.pAcercaDe{
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    min-height: 100vh;
+}
+.card-img{
+    width: 100%;
+      
+}

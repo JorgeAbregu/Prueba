@@ -1,0 +1,23 @@
+/* HARD & SOFT SKILLS */
+h2.experiencia.text-primary{
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.progress-bar{
+    background-color: rgb(226, 113, 43);
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+ 
+
+}
+.progress{
+    margin: 0.125rem;
+    display: flex;
+    height: 2rem; 
+    background-color: #f8f9fa00;
+}

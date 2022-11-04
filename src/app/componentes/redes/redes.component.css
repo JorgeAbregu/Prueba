@@ -1,0 +1,49 @@
+/* TWITTER SIDEBAR */
+.fl-fl {
+    background: rgba(0, 135, 253, 0.9);
+    opacity: 0.9;
+    padding: .25rem;
+    width: 2.5rem;
+    position: fixed;
+    right: 0px;
+     font: normal normal 1.3rem Bookman Old Style;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  .fl-fl:hover {opacity: 1;}
+  .fa{
+    font-size: 40px2.5rem;
+     color: rgb(252, 253, 253);
+    padding: .625rem 0;
+    width: 2.5rem;
+    margin-left: .625rem;
+  }
+  
+  
+  .float-lk {
+    top: 20%;
+  }
+  .float-ig {
+    top: 27%;
+  }
+  .float-gi {
+    top: 34%;
+  }
+  .float-wh {
+    top: 41%;
+  }
+  i.fa.fa-linkedin:hover {
+    color:rgb(3, 99, 253);
+  }
+  i.fa.fa-instagram:hover{
+    color: rgb(249, 48, 82);
+  }
+  i.fa.fa-github:hover{
+    color:rgb(138, 43, 226);
+  }
+  i.fa.fa-whatsapp:hover{
+    color:rgb(81, 245, 139);
+  }

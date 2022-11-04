@@ -1,0 +1,19 @@
+/* Navbar */
+
+
+
+/* Hover de los User */
+
+i.fa-solid.fa-door-closed.fa-2xl:hover{
+    color: rgb(128, 128, 128);
+}
+i.fa-solid.fa-door-open.fa-2xl:hover{
+  color: rgb(65, 65, 65);
+}
+
+
+/* Transparentar fondo de Iconos Redes */
+/* .list-group{
+    --bs-list-group-bg: transparent !important;
+    --bs-list-group-border-color: transparent !important;
+} */

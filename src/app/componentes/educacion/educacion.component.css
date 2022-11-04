@@ -1,0 +1,16 @@
+/* EDUCACION */
+
+.educacion{
+    margin-top: .313rem;
+    margin-bottom: .625rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#barker{
+    height: 25%;
+}
+.h5Estudios{
+    font-style: italic;
+    font-weight: bold;
+}

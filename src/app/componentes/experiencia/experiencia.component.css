@@ -1,0 +1,133 @@
+
+/* EXPERIENCIA */
+.experiencia{
+    margin-top: .625rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+:root {
+  --dark-blue: #1F4782;
+  --dark-gray: #303335;
+  --golden: #AB834C;
+  --golden-tainoi: #E9BE71;
+  --gray: #818C96;
+  --white: #FFF;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.general-container {
+  display: flex;
+  height: 30rem;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 70rem;
+}
+
+.radio {
+  display: none;
+}
+
+.content {
+  background:
+  url(/assets/imagenes/administración1.jpg)
+  100% / cover no-repeat;
+  border-radius: 3rem;
+  cursor: pointer;
+  flex: 1;
+  margin-right: 0.8rem;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+.content:hover {
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+
+.content:nth-of-type(2) {
+  background-image: url(/assets/imagenes/comercializacion.jpg);
+}
+
+.content:nth-of-type(3) {
+  background-image: url(/assets/imagenes/freelance.jpg);
+}
+
+
+.content:nth-of-type(2) .icon {
+  color: var(--dark-gray);
+}
+
+.content:nth-of-type(3) .icon {
+  color: var(--dark-blue);
+}
+
+.content:nth-of-type(4) .icon {
+  color: var(--gray);
+}
+
+.content:nth-of-type(5) .icon {
+  color: var(--golden);
+}
+
+.card-title {
+  bottom: 1.2rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2rem;
+  color: #303335;
+  line-height: 1.1;
+  opacity: 0;
+  position: absolute;
+  text-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  transform: translateX(2rem);
+  transition: 290ms cubic-bezier(0.05, 0.61, 0.41, 0.95) 300ms;
+  transition-property: opacity, transform;
+  user-select: none;
+  white-space: nowrap;
+}
+.c-1{
+    left: 4.5rem;
+}
+.c-2{
+    left: 4.5rem;
+}
+.c-3{
+    left: 4.5rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+}
+
+/* Effect */
+.radio:checked + .content {
+  border-radius: 2rem;
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+  flex: 10;
+}
+
+.radio:checked + .content > .card-title {
+  opacity: 1;
+  transform: translateX(0);
+}

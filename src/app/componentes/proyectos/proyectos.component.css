@@ -1,0 +1,29 @@
+/* MIS PROYECTOS */
+
+h2.proyectos.text-primary{
+    margin-top: .625rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerP{
+    width: auto;
+}
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+} 
+.img-proyecto{
+    margin-top: -5.4375rem;
+    box-shadow: 0.3125rem 0.3125rem 0.8125rem rgb(249, 249, 251);
+}
+.img-proyecto2{
+    width: 25%;
+    margin-top: -5.4375rem;
+    box-shadow: 0.3125rem 0.3125rem 0.8125rem rgb(249, 249, 251);
+}
+.parte2{
+    margin-top: 6rem;
+}

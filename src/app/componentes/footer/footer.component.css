@@ -1,0 +1,8 @@
+footer{
+    font-size: 1.125rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: -0.0625rem -0.0625rem 0.3125rem rgb(129, 156, 253);
+}
